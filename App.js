@@ -1,11 +1,10 @@
-import { View } from 'react-native';
 import Main from './src/components/Main.jsx';
-import Constants from 'expo-constants'
+import { NativeRouter } from 'react-router-native';
 
 export default function App() {
   return (
-    <View style={{ flexGrow: 1 }}>
+    <NativeRouter>
       <Main />
-    </View>
+    </NativeRouter>
   );
 }
